@@ -1,0 +1,128 @@
+.container {
+  background: #161625;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.tested {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.loading {
+  text-align: center;
+  padding-top: 20%;
+}
+.heading-container {
+  border-radius: 32px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 28px;
+  font-style: normal;
+  color: #0ea5e9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(2, 132, 199, 0.16);
+}
+.date {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #cbd5e1;
+}
+.tested {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+  text-align: end;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.total-tested {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #94a3b8;
+  margin: 0;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.ul {
+  list-style-type: none;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.top-districts {
+  margin-top: 20px;
+  width: 100%;
+}
+.top-districts-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+.top-district-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Confirmed {
+  color: #ff073a;
+}
+.Active {
+  color: #007bff;
+}
+.Recovered {
+  color: #28a745;
+}
+.Deceased {
+  color: #6c757d;
+}
+.chart-container {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  width: 100%;
+}

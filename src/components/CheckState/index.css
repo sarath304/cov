@@ -1,0 +1,41 @@
+.state {
+  list-style-type: none;
+  border-bottom: 1px solid #64748b;
+}
+
+.link {
+  text-decoration: none;
+}
+.heading {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  transition: 0.7s;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 15px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70px;
+  height: 28px;
+  background: rgba(28, 212, 212, 0.16);
+  border-radius: 4px;
+  margin-top: 15px;
+  border: 0;
+  color: #facc15;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.logo {
+  font-size: 15px;
+  font-weight: 500;
+}
